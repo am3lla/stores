@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tiendas Costco</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="hello_world">Hola mundo!</string>
+    <string name="author_label">Autor</string>
+    <string name="author_email_label">Correo electronico</string>
+    <string name="author_mobile_label">Telefono</string>
+    <string name="author">Andres Mella Romero</string>
+    <string name="author_email">andres.mella.romero@gmail.com</string>
+    <string name="author_mobile">2223234504</string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="button_ok">OK</string>
+
+</resources>
