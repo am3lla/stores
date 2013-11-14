@@ -24,7 +24,11 @@
         </activity>
         <activity
             android:name="com.edu.telescopio.AboutActivity"
-            android:label="@string/title_activity_about">
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.edu.telescopio.StoreDetailActivity"
+            android:label="@string/title_activity_store_detail" >
         </activity>
     </application>
 

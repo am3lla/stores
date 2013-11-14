@@ -1,15 +1,37 @@
 package com.edu.telescopio;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
+import android.text.util.Linkify;
 import android.view.Menu;
+import android.widget.TextView;
 
-public class AboutActivity extends Activity {
 
+public class AboutActivity extends Activity {				
+	
+	private void setupIds() {
+						
+		TextView txtView = (TextView)this.findViewById(R.id.author);
+		txtView.setText(R.string.author);
+		Linkify.addLinks(txtView, Linkify.ALL);
+		
+		txtView = (TextView)this.findViewById(R.id.email);
+		txtView.setText(R.string.author_email);
+		Linkify.addLinks(txtView, Linkify.ALL);
+		
+		txtView = (TextView)this.findViewById(R.id.mobile);
+		txtView.setText(R.string.author_mobile);
+		Linkify.addLinks(txtView, Linkify.ALL);
+		
+	}
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about);
+		
+		this.setupIds();
+		
 	}
 
 	@Override

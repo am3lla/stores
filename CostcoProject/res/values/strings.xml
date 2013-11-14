@@ -12,5 +12,6 @@
     <string name="author_mobile">2223234504</string>
     <string name="title_activity_about">About</string>
     <string name="button_ok">OK</string>
+    <string name="title_activity_store_detail">StoreDetailActivity</string>    
 
 </resources>
