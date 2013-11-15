@@ -6,7 +6,10 @@ import android.text.util.Linkify;
 import android.view.Menu;
 import android.widget.TextView;
 
-
+/**
+ * @author andres
+ *
+ */
 public class AboutActivity extends Activity {				
 	
 	private void setupIds() {

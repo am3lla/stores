@@ -12,5 +12,10 @@
     <string name="author_mobile">2223234504</string>
     <string name="title_activity_about">Acerca de</string>
     <string name="button_ok">OK</string>
-
+    <string name="button_call">Llamar</string>
+	<string name="wkdays">Entre semana</string>
+	<string name="wknd">Fin de semama</string>
+	<string name="button_image">Imagen</string>
+	<string name="comment_ex">Una gran tienda, puedes encontrar lo que sea, al mejor precio</string>
+	
 </resources>

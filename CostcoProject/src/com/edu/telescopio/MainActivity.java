@@ -20,6 +20,10 @@ import com.edu.telescopio.repository.vo.SaleStore;
 import static com.edu.telescopio.Constants.ID;
 import static com.edu.telescopio.Constants.STORE_NAME;
 
+/**
+ * @author andres
+ *
+ */
 public class MainActivity extends ListActivity {
 
 	private List<HashMap<String, String>> collection;
@@ -41,13 +45,13 @@ public class MainActivity extends ListActivity {
 			
 		}
 				
-		SimpleAdapter mallsAdapter = new SimpleAdapter(this, 
+		SimpleAdapter adapter = new SimpleAdapter(this, 
 				collection, 
 				android.R.layout.simple_list_item_1, 
 				new String[] {STORE_NAME, ID }, 
 				new int[] { android.R.id.text1, android.R.id.text2 });
 
-        setListAdapter(mallsAdapter);
+        setListAdapter(adapter);
 		
 	}
 	
